@@ -5,7 +5,6 @@ const Search_header = ({ onSearch }) => {
   const inputRef = useRef();
   const handleSearch = () => {
     const value = inputRef.current.value;
-    console.log(value);
     onSearch(value);
   };
   const onClick = () => {
